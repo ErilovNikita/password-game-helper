@@ -6,6 +6,7 @@
 
 ![PWA offline ready](https://img.shields.io/badge/PWA-offline--ready-5a0fc8?logo=pwa&logoColor=white)
 ![MIT License](https://img.shields.io/badge/license-MIT-blue)
+[![Открыть демо](https://img.shields.io/badge/демо-открыть-2b6cff?logo=github)](https://erilovnikita.github.io/password-game-helper/)
 
 <div align="center">
 
@@ -13,7 +14,10 @@
 
 </div>
 
-</div>
+## Демо
+Работающая версия приложения доступна в GitHub Pages:
+
+**[Открыть Password Game Helper](https://erilovnikita.github.io/password-game-helper/)**
 
 ## Возможности
 - Пароли длиной от 4 до 10 цифр;
