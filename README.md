@@ -1,13 +1,19 @@
 # Password Game Helper
 
-![PWA offline ready](https://img.shields.io/badge/PWA-offline--ready-5a0fc8?logo=pwa&logoColor=white)
-![MIT License](https://img.shields.io/badge/license-MIT-blue)
-
-![Password Game Helper](public/logo.png)
-
 Мобильный помощник для позиционной игры с паролем. Приложение анализирует
 предыдущие попытки, исключает невозможные цифры и отмечает позиции, которые
 можно определить однозначно.
+
+![PWA offline ready](https://img.shields.io/badge/PWA-offline--ready-5a0fc8?logo=pwa&logoColor=white)
+![MIT License](https://img.shields.io/badge/license-MIT-blue)
+
+<div align="center">
+
+![Password Game Helper](public/logo.png)
+
+</div>
+
+</div>
 
 ## Возможности
 - Пароли длиной от 4 до 10 цифр;
