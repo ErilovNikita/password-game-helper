@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue'
+import cogIcon from './assets/cog.png'
 import ExitConfirmationModal from './features/game/components/ExitConfirmationModal.vue'
 import Game from './features/game/components/Game.vue'
 import type { Settings as GameSettings } from './features/game/types'
@@ -70,7 +71,7 @@ function confirmExit() {
       aria-label="Выйти из игры"
       @click="exitModalOpen = true"
     >
-      ⚙
+      <img :src="cogIcon" alt="" />
     </button>
   </div>
 
@@ -163,12 +164,20 @@ function confirmExit() {
   margin-left: auto;
   padding: 0;
   border: 0;
-  border-radius: 10px;
+  border-radius: 24px;
   background: #eef0f3;
   color: #000;
   -webkit-text-fill-color: #000;
   font-size: 21px;
   line-height: 1;
+}
+
+.exit-trigger img {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  object-fit: contain;
 }
 
 @keyframes compact-logo {

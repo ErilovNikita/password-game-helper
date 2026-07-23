@@ -59,7 +59,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', handleKeydown))
 .confirmation {
   width: min(100%, 330px);
   padding: 22px;
-  border-radius: 16px;
+  border-radius: 40px;
   background: #fff;
   box-shadow: 0 20px 60px rgba(15, 23, 42, 0.25);
   box-sizing: border-box;
@@ -89,7 +89,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', handleKeydown))
   -webkit-appearance: none;
   height: 48px;
   border: 0;
-  border-radius: 11px;
+  border-radius: 24px;
   color: #000;
   -webkit-text-fill-color: #000;
   font-weight: 700;

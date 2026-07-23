@@ -92,7 +92,7 @@ function handlePhysicalKey(event: KeyboardEvent): void {
   width: 100%;
   min-width: 0;
   height: 64px;
-  border-radius: 12px;
+  border-radius: 24px;
   border: 0;
   color: #000;
   -webkit-text-fill-color: #000;

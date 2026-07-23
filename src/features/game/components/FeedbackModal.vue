@@ -66,7 +66,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', handleKeydown))
 .modal {
   width: min(100%, 360px);
   padding: 24px;
-  border-radius: 18px;
+  border-radius: 40px;
   background: #fff;
   box-shadow: 0 20px 60px rgba(15, 23, 42, 0.25);
   box-sizing: border-box;
@@ -95,7 +95,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', handleKeydown))
   -webkit-appearance: none;
   min-height: 56px;
   border: 0;
-  border-radius: 12px;
+  border-radius: 24px;
   background: #edf3ff;
   color: #000;
   -webkit-text-fill-color: #000;
@@ -112,7 +112,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', handleKeydown))
   height: 48px;
   margin-top: 14px;
   border: 0;
-  border-radius: 12px;
+  border-radius: 24px;
   background: #eef0f3;
   font-weight: 600;
 }

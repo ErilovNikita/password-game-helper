@@ -265,12 +265,12 @@ updateDeductions()
 }
 
 .victory {
+  padding-bottom: 200px;
   display: flex;
   flex: 1;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 24px;
   text-align: center;
 }
 
@@ -338,7 +338,7 @@ updateDeductions()
   height: 36px;
   padding: 0;
   border: 0;
-  border-radius: 9px;
+  border-radius: 24px;
   background: rgba(0, 0, 0, 0.07);
   color: #000;
   -webkit-text-fill-color: #000;
